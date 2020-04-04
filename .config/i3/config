@@ -252,3 +252,4 @@ exec feh --bg-scale ~/wallpapers/wallpaper.png
 exec --no-startup-id picom
 exec --no-startup-id ~/.i3/polybar.sh &
 exec polybar top &
+exec redshift &

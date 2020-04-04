@@ -4,7 +4,7 @@ cd yay/
 makepkg -si
 
 echo "Setting up system utils"
-yay -S alsa-utils git feh xorg-backlight alacritty rofi picom i3status i3lock-fancy i3exit
+yay -S alsa-utils git feh xorg-backlight alacritty rofi picom i3status i3lock-fancy i3exit redshift
 
 echo "Setting up fonts"
 yay -S ttf-monaco nerd-fonts-complete
