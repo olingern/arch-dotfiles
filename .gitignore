@@ -1,0 +1,15 @@
+# Ignored directories
+.cache
+.config/Code
+.mozilla/
+Trash
+.local
+.vscode
+.pki
+.gnupg
+
+# Ignored files
+.bash_history
+.Xauthority
+user
+.viminfo
