@@ -98,20 +98,20 @@ font:
   normal:
     # family: Iosevka
     # family: "Fira Code"
-    family: "Source Code Pro"
+    family: "Monaco"
     # style: Retina
 
   # The bold font face
   bold:
     # family: Iosevka
     # family: "Fira Code"
-    family: "Source Code Pro"
+    family: "Monaco"
 
   # The italic font face
   italic:
     # family: Iosevka
     # family: "Fira Code"
-    family: "Source Code Pro"
+    family: "Monaco"
     # style: "Medium Italic"
 
   # Point size of the font
