@@ -11,7 +11,7 @@ yay -S ttf-monaco nerd-fonts-complete
 fc-cache -f -v
 
 echo "Setting up development utils"
-yay -S visual-studio-code-bin docker curl wget insomnia joplin openssh
+yay -S visual-studio-code-bin docker curl wget insomnia openssh
 
 echo "=== Starting and setting up docker ==="
 systemctl start docker
