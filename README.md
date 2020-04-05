@@ -46,3 +46,18 @@ If you are cloning or forking and not me, you'll need to delete the `.gitconfig`
 | [Go](https://github.com/golang/go) | go 1.14.1 |
 | [nvm](https://github.com/nvm-sh/nvm) | POSIX-compliant bash script to manage multiple active node.js versions  |
 | [rvm](https://github.com/rvm/rvm) | Ruby version manager |
+
+### Design / Layout
+
+Currently a WIP
+
+![code-terminal](https://user-images.githubusercontent.com/1470297/78472443-ca779380-7773-11ea-96d7-62dd4adc81c0.png)
+
+TODOS:
+- [ ] Align top icons
+- [ ] Adjust font sizes for consistency
+- [ ] Power button padding
+- [ ] Wifi in top menu
+- [ ] Use polybar in bottom info instead of i3status
+- [ ] Map xorg-backlight to F6 / F7
+- [ ] Rename windows from numbers to usage, i.e. "1" to "Browser"
