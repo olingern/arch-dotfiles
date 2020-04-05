@@ -4,13 +4,14 @@ cd yay/
 makepkg -si
 
 echo "Setting up system utils"
-yay -S alsa-utils git feh xorg-backlight alacritty rofi picom i3status i3lock-fancy i3exit redshift
+yay -S alsa-utils feh xorg-backlight alacritty rofi picom i3status i3lock-fancy redshift wmctrl libinput-gestures
 
 echo "Setting up fonts"
 yay -S ttf-monaco nerd-fonts-complete
+fc-cache -f -v
 
 echo "Setting up development utils"
-yay -S visual-studio-code-bin docker curl
+yay -S visual-studio-code-bin docker curl insomnia joplin openssh
 
 echo "=== Starting and setting up docker ==="
 systemctl start docker
@@ -37,4 +38,4 @@ echo ""
 echo "Post install reminders:"
 echo " - set volume in alsa-utils"
 echo " - set latest ruby, node versions"
-echo ""
+echo " - generate ssh key and add to Github"
