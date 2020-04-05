@@ -21,3 +21,4 @@ go
 .Xauthority
 user
 .viminfo
+.netrwhist
