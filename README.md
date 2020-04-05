@@ -37,8 +37,8 @@ If you are cloning or forking and not me, you'll need to delete the `.gitconfig`
 | [docker](https://www.docker.com/) | Containerization |
 | [curl](https://curl.haxx.se/) | Command line data transfer utility |
 | [insomnia](https://insomnia.rest/) | REST / GraphQL client |
-| [joplin](https://joplinapp.org/) | Open source note taking and to-do application with synchronisation capabilities |
 | [openssh](https://joplinapp.org/) | Suite of secure networking utilities |
+| [wget](https://github.com/mirror/wget) | Non-interactive download of files from the Web |
 
 ### Programming Languages / version managers
 
