@@ -11,7 +11,7 @@ If you are cloning or forking and not me, you'll need to delete the `.gitconfig`
 ### Usage
 
 - Clone or download repository
-- Run `./.setup.sh`
+- Run `sudo ./.setup.sh`
 
 ### System Utilities installed
           
