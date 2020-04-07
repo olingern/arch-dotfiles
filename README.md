@@ -59,5 +59,6 @@ TODOS:
 - [ ] Power button padding
 - [ ] Wifi in top menu
 - [ ] Use polybar in bottom info instead of i3status
-- [ ] Map xorg-backlight to F6 / F7
+- [x] Map mute / unmute keys to amixer
+- [x] Map xorg-backlight to F6 / F7
 - [ ] Rename windows from numbers to usage, i.e. "1" to "Browser"
