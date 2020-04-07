@@ -10,11 +10,12 @@ Trash
 .gnupg
 .electron*
 .config/configstore
-go
+go/*
 .GoLand*
 .java*
 .ssh
 .rvm
+.npm
 
 # Ignored files
 .bash_history
