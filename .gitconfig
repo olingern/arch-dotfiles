@@ -4,6 +4,7 @@
 [core]
   autocrlf = input
   whitespace = fix,space-before-tab,tab-in-indent,trailing-space
+	editor = vim
 [apply]
   whitespace = fix
 [alias]
@@ -38,3 +39,8 @@
   pushInsteadOf = "git://github.com/"
 [url "git://github.com/"]
   insteadOf = "github:"
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
