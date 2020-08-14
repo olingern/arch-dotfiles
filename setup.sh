@@ -7,7 +7,7 @@ echo "Setting up system utils"
 yay -S alsa-utils feh xorg-backlight alacritty rofi picom i3status i3lock-fancy redshift wmctrl libinput-gestures
 
 echo "Setting up fonts"
-yay -S ttf-monaco nerd-fonts-complete
+yay -S ttf-monaco nerd-fonts-complete ttf-mac-fonts
 fc-cache -f -v
 
 echo "Setting up development utils"
