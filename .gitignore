@@ -1,21 +1,10 @@
 # Ignored directories
-Downloads
-Trash
-.cache
-.config/Code
-.mozilla/
-.local
-.vscode
-.pki
-.gnupg
-.electron*
-.config/configstore
-go/*
-.GoLand*
-.java*
-.ssh
-.rvm
-.npm
+*
+
+!.alacritty.yml
+!.bash*
+!.config/i3/*
+!.config/polybar/*
 
 # Ignored files
 .bash_history
