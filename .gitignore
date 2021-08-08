@@ -1,15 +1,22 @@
-# Ignored directories
 *
-
-!.alacritty.yml
-!.bash*
-!.config/i3/*
-!.config/polybar/*
-
-# Ignored files
-.bash_history
-.Xauthority
-user
-.viminfo
-.netrwhist
-.wget*
+!~/wallpapers/wallpaper-old.png
+!~/wallpapers/wallpaper.png
+!README.md
+!LICENSE
+!.xprofile
+!.gitignore
+!.gitconfig
+!.xinitrc
+!.config
+!.config/alacritty/
+!.config/alacritty/alacritty.yml
+!.config/neofetch/
+!.config/neofetch/config.conf
+!.config/picom/
+!.config/picom/picom.conf
+!.config/colorls/files.yaml
+!.config/rofi/
+!.config/rofi/config.rasi
+!.config/i3/
+!.config/i3/config
+!.scripts
