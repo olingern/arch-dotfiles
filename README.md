@@ -49,4 +49,4 @@ If you are cloning or forking and not me, you'll need to delete the `.gitconfig`
 
 ### Design / Layout
 
-![image](https://user-images.githubusercontent.com/1470297/128619425-25a77d0a-03bc-4db6-9461-0aeadee18920.png)
+<img src="https://user-images.githubusercontent.com/1470297/128619795-07696edd-6c7f-4151-a5bc-bd640e5f1788.png" width="100%" />
