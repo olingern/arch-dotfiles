@@ -8,6 +8,14 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+alias bye="git branch -D $1"
+alias oops="git reset --soft HEAD~1"
+alias new_branch="git checkout -b $1"
+alias pr="gh pr create --fill"
+alias draft="gh pr create --fill --draft"
+alias master="git checkout master"
+alias goto-interpreter="cd ~/go/src/github.com/olingern/interpreter"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -15,4 +23,3 @@ export NVM_DIR="$HOME/.nvm"
 
 [[ -s "/home/olingern/.gvm/scripts/gvm" ]] && source "/home/olingern/.gvm/scripts/gvm"
 
-PATH=$PATH:$(go env GOPATH)/binexport PATH=/home/olingern/.nvm/versions/node/v12.4.0/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/olingern/go/bin:/home/olingern/go/bin:/usr/local/go/bin
