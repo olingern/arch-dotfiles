@@ -49,16 +49,4 @@ If you are cloning or forking and not me, you'll need to delete the `.gitconfig`
 
 ### Design / Layout
 
-Currently a WIP
-
-![code-terminal](https://user-images.githubusercontent.com/1470297/78472443-ca779380-7773-11ea-96d7-62dd4adc81c0.png)
-
-TODOS:
-- [ ] Align top icons
-- [ ] Adjust font sizes for consistency
-- [ ] Power button padding
-- [ ] Wifi in top menu
-- [ ] Use polybar in bottom info instead of i3status
-- [x] Map mute / unmute keys to amixer
-- [x] Map xorg-backlight to F6 / F7
-- [ ] Rename windows from numbers to usage, i.e. "1" to "Browser"
+<img src="https://user-images.githubusercontent.com/1470297/128619795-07696edd-6c7f-4151-a5bc-bd640e5f1788.png" width="100%" />
